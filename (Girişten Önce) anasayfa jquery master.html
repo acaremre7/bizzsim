@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PeraNet</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-9" />
+<meta name="description" content="BizzSim Business Simulation" />
+<meta name="keywords" content="Peranet, simülasyon, eğitim, eğitim simülasyonu, 
+işletme simülasyonu, yönetim simülasyonu, simulation, business simulation, 
+education simulation, management simulation, türkçe simülasyon, türkçe eğitim simülasyonu, 
+türkçe yönetim simülasyonu, türkçe işletme simülasyonu, strateji simülasyonu, turkish simulations" />
+<link rel="icon" href="images/fav_icon.png" />
+<link rel="stylesheet" type="text/css" href="style/stylesheet.css"/>
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="js/imageslider.js"></script>
+
+<script type="text/javascript">
+
+    function repeater() {
+        var i = 4;
+        setInterval(
+        function () {
+            var theImage = $('ul li img');
+            var theWidth = theImage.width();
+            var totalWidth = theImage.length * theWidth;
+            i++;
+            $(".jq").animate({
+                "margin-left": (-(i%4) * theWidth)                
+            }, 1000)
+
+        }, 6000);	
+
+}
+
+
+
+</script>
+
+
+
+</head>
+<body onload="repeater()">
+<center>
+<div class="frame">
+
+<div class="headermainbg">
+<div class="headermain">
+<div class="top">
+<p class="label">E-posta</p>
+<input class="emailbox" id="email" type="text" />
+<p class="label">Şifre</p>
+<input class="passwordbox" id="password" type="password" />
+<a href="#url"><img class="girisbutton" src="images/giris.jpg" alt="Giriş Yap"/></a>
+<a href="#url"><img class="kayitbutton" src="images/kayit.jpg" alt="Kayıt" /></a>
+</div>
+<div class="middletop">
+<input class="rememberme" type="checkbox" />
+<p class="remember">Beni Hatırla</p>
+<a href="#url" class="recovery">Şifremi Unuttum</a>
+</div>
+<img class="logo" src="images/logo.png" alt="BizzSim" />
+<div class="menu">
+<a class="menulink" href="#url">
+<img class="menuimg1" src="images/hometrans.png" alt="Anasayfa"/>
+</a>
+<img class="menuimg" src="images/bar.jpg" alt=""/>
+<a class="menulink"  href="#url">
+<img class="menuimg2" src="images/uruntrans.png" alt="Ürün Özellikleri"/>
+</a>
+<img class="menuimg" src="images/bar.jpg" alt=""/>
+<a class="menulink"  href="#url">
+<img class="menuimg3" src="images/fiyattrans.png" alt="Fiyatlandırma"/>
+</a>
+<img class="menuimg" src="images/bar.jpg" alt=""/>
+<a class="menulink"  href="#url">
+<img class="menuimg4" src="images/iletisimtrans.png" alt="İletişim"/>
+</a>
+</div>
+
+
+
+
+<div class="headbottom">
+<ul class="jq" id="teaser">
+<li class="jqueryslider"><img class="slideimage" src="images/s1.png" alt="Bütçenize Uygun Eğitim İçeriği" /><a class="next" id="next1" href="#"></a><a class="goend" href="#"></a></li>
+<li class="jqueryslider"><img class="slideimage" src="images/s2.png" alt="Kurulum Gerektirmez" /><a class="next" id="next2" href="#"></a><a class="previous" href="#"></a></li>
+<li class="jqueryslider"><img class="slideimage" src="images/s3.png" alt="Bütün Fonksiyonlar Bir Arada" /><a class="next" id="next3" href="#"></a><a class="previous" href="#"></a></li>
+<li class="jqueryslider"><img class="slideimage" src="images/s4.png" alt="Mobil Erişim Avantajı" /><a class="startover" id="next4" href="#"></a><a class="previous" href="#"></a></li>
+</ul>
+<img class="prebutton" src="images/previous.png" alt="Geri" id="geri" />
+<img class="nextbutton" src="images/next.png" alt="İleri" id="ileri"/>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="content">
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="footerbg">
+<div class="footer">
+<img class="peralogo" src="images/peranet.png" alt="PeraNet"/>
+<p class="footertext">Bizi Takip Edin</p>
+<a href="https://twitter.com/BizzSim" target="_blank" class="menulink"><img class="followleft" src="images/twitter.jpg" alt="Twitter"/></a>
+<a href="http://www.facebook.com/pages/BizzSim-%C4%B0%C5%9Fletme-Sim%C3%BClasyonlar%C4%B1/425983770795130" target="_blank" class="menulink"><img class="follow" src="images/facebook.jpg" alt="Facebook"/></a>
+<a href="http://www.linkedin.com/company/peranet-bilgi-teknolojileri" target="_blank" class="menulink"><img class="follow" src="images/linkedin.jpg" alt="LinkedIn"/></a>
+<a href="#url" class="policy">Kullanıcı Sözleşmesi</a>
+<img class="bottombar" src="images/bottombar.jpg" alt=""/>
+<a href="#url" class="bottomtext">Gizlilik Bildirimi</a>
+<img class="bottombar" src="images/bottombar.jpg" alt=""/>
+<a class="bottomtext">© 2012 Peranet</a>
+<img class="bottombar" src="images/bottombar.jpg" alt=""/>
+<a class="bottomtext">Tüm Hakları Saklıdır</a>
+</div>
+</div>
+
+
+
+
+</div>
+</center>
+</body>
+</html>
